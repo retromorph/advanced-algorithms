@@ -1,0 +1,9 @@
+name: advanced-algorithms
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - jupyter
+  - pip
+  - pip:
+    - numpy
