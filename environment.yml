@@ -1,9 +1,13 @@
 name: advanced-algorithms
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python=3.12
   - jupyter
+  - xeus-cpp
   - pip
   - pip:
     - numpy
+    - pandas
+    - matplotlib
